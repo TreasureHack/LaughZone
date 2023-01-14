@@ -1,0 +1,28 @@
+body{
+  background-color: gray;
+}
+
+.search-form{
+  margin-left: 770px;
+  margin-top: 200px;
+}
+
+.input-field{
+  height: 50px;
+  width: 300px;
+  font-size: large;
+
+  border: 1px solid black;
+}
+
+.search-form button{
+  height: 50px;
+  width: 100px;
+  
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -200px;
+
+  
+}
+

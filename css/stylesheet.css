@@ -67,18 +67,18 @@ body{
   position: absolute;
 }
 
-.about-me button {
+button {
   background-color: lightgray;
 
   border: 1px solid black;
 
 }
 
-.about-me button:hover{
+button:hover{
   background-color: darkgray;
 }
 
-.about-me button:active{
+button:active{
   background-color: gray;
 }
 
