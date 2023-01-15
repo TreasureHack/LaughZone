@@ -20,7 +20,8 @@ body{
 
 .nav-bar a:hover{
   text-decoration: none;
-  color: #29293d;
+  color: #e3e3e3;
+  text-shadow: 0 0 3px #29293d;
 }
 
 .nav-bar a:active{
