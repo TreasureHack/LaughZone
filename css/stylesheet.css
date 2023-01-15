@@ -1,15 +1,17 @@
 body{
-  background-color: gray;
+  background-color: #29293d;
+  
 }
 
 .nav-bar{
   margin-left: auto;
   margin-right: auto;
-  
+  border-radius: 2.8rem;
   height: 50px;
-  width: 500px;
-
+  width: 400px;
+  background-color: wheat;
   border: 2px solid black;
+  font-family: 'Poppins';
 }
 
 .nav-bar a{
@@ -19,19 +21,18 @@ body{
 
 .nav-bar a:hover{
   text-decoration: none;
-  color: black;
-  text-decoration: underline;
+  color: #29293d;
 }
 
 .nav-bar a:active{
-  color: red;
+  color: #29293d;
 }
 
 .nav-bar li{
   list-style: none;
   display: inline;
 
-  margin-left: 90px;
+  margin-left: 45px;
 
 }
 
@@ -39,17 +40,17 @@ body{
 
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
-
+  margin-top: 130px;
+  background-color: wheat;
   height: 300px;
   width: 750px;
-
-  border: 1px solid black;
+  border-radius:2.8rem;
+  border: 2px solid black;
+  font-family: 'Poppins';
 }
 
 .about-me h1{
   text-align: center;
-  text-decoration: underline;
 }
 
 .about-me p {
@@ -68,17 +69,18 @@ body{
 }
 
 button {
+  margin: 20px;
   background-color: lightgray;
-
-  border: 1px solid black;
-
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+}
+/*
+.search:hover{
+  
 }
 
-button:hover{
-  background-color: darkgray;
+.search:active{
+  
 }
-
-button:active{
-  background-color: gray;
-}
-
+*/
