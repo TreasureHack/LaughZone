@@ -1,28 +1,63 @@
 body{
-  background-color: gray;
+  background-color: #29293d;
+}
+
+.nav-bar {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2.8rem;
+  height: 50px;
+  width: 400px;
+  background-color: wheat;
+  border: 2px solid black;
+  font-family: 'Poppins';
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar a:hover{
+  text-decoration: none;
+  color: #e3e3e3;
+  text-shadow: 0 0 3px #29293d;
+}
+
+.nav-bar a:active{
+  color: #29293d;
+}
+
+.nav-bar li{
+  list-style: none;
+  display: inline;
+
+  margin-left: 45px;
+
 }
 
 .search-form{
-  margin-left: 770px;
-  margin-top: 200px;
+  margin-left: 420px;
+  margin-top: 150px;
 }
 
 .input-field{
   height: 50px;
   width: 300px;
   font-size: large;
-
-  border: 1px solid black;
+  border-radius: 5px;
+  border: 1px solid white;
 }
 
 .search-form button{
-  height: 50px;
+  height: 30px;
   width: 100px;
-  
+  border: 2px solid white;
+  border-radius: 5px;
   position: absolute;
   margin-top: 100px;
   margin-left: -200px;
-
+  font-weight: bold;
   
 }
 
